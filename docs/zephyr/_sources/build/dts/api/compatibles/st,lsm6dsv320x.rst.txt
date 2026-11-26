@@ -9,6 +9,6 @@ The devicetree compatible ``st,lsm6dsv320x`` may be handled by any
 of the following bindings:
 
 - :ref:`dtbinding_st_lsm6dsv320x_i3c`
-- :ref:`dtbinding_st_lsm6dsv320x_i2c`
 - :ref:`dtbinding_st_lsm6dsv320x_spi`
+- :ref:`dtbinding_st_lsm6dsv320x_i2c`
 

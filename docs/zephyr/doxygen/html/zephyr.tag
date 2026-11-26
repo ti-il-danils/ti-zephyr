@@ -31206,8 +31206,8 @@
       <type>int</type>
       <name>bt_bap_broadcast_sink_sync</name>
       <anchorfile>group__bt__bap__broadcast__sink.html</anchorfile>
-      <anchor>gaaf18a6f7d2897f85b8012c1fa0513c09</anchor>
-      <arglist>(struct bt_bap_broadcast_sink *sink, uint32_t indexes_bitfield, struct bt_bap_stream *streams[], const uint8_t broadcast_code[0x10])</arglist>
+      <anchor>gacadebb5ce8aab5f5b8f1ff7e0fa57805</anchor>
+      <arglist>(struct bt_bap_broadcast_sink *sink, uint32_t indexes_bitfield, struct bt_bap_stream *streams[], const uint8_t broadcast_code[BT_ISO_BROADCAST_CODE_SIZE])</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -31339,8 +31339,8 @@
       <type>int</type>
       <name>bt_bap_broadcast_assistant_set_broadcast_code</name>
       <anchorfile>group__bt__bap.html</anchorfile>
-      <anchor>gabfbe52e8d1daa9411fb43781a199cac4</anchor>
-      <arglist>(struct bt_conn *conn, uint8_t src_id, const uint8_t broadcast_code[0x10])</arglist>
+      <anchor>gabcec07689c13a996bcb9d2d417347dbb</anchor>
+      <arglist>(struct bt_conn *conn, uint8_t src_id, const uint8_t broadcast_code[BT_ISO_BROADCAST_CODE_SIZE])</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -614872,8 +614872,8 @@
       <type>char</type>
       <name>fxsave</name>
       <anchorfile>structarch__esf.html</anchorfile>
-      <anchor>af27c45a02ae939f203f260e21c5efdb5</anchor>
-      <arglist>[X86_FXSAVE_SIZE]</arglist>
+      <anchor>ad8800ab57271ecbd74b382b47400fe4a</anchor>
+      <arglist>[512]</arglist>
     </member>
     <member kind="variable">
       <type>unsigned long</type>
@@ -619129,8 +619129,8 @@
       <type>uint8_t</type>
       <name>broadcast_code</name>
       <anchorfile>structbt__bap__broadcast__source__param.html</anchorfile>
-      <anchor>a4fa06bcfe0f01d093dc855ede503e6c7</anchor>
-      <arglist>[0x10]</arglist>
+      <anchor>a6a05b6448f55cf5f52f90e44d83146dc</anchor>
+      <arglist>[BT_ISO_BROADCAST_CODE_SIZE]</arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
@@ -619501,8 +619501,8 @@
       <type>void(*</type>
       <name>broadcast_code</name>
       <anchorfile>structbt__bap__scan__delegator__cb.html</anchorfile>
-      <anchor>a92da6e5c59d7944cc6e910425337de80</anchor>
-      <arglist>)(struct bt_conn *conn, const struct bt_bap_scan_delegator_recv_state *recv_state, const uint8_t broadcast_code[0x10])</arglist>
+      <anchor>a78d011c817e60725a0ef14c68bd655cd</anchor>
+      <arglist>)(struct bt_conn *conn, const struct bt_bap_scan_delegator_recv_state *recv_state, const uint8_t broadcast_code[BT_ISO_BROADCAST_CODE_SIZE])</arglist>
     </member>
     <member kind="variable">
       <type>int(*</type>
@@ -619628,8 +619628,8 @@
       <type>uint8_t</type>
       <name>bad_code</name>
       <anchorfile>structbt__bap__scan__delegator__recv__state.html</anchorfile>
-      <anchor>acc044fafc882b449ee6fcd0c6c995b36</anchor>
-      <arglist>[0x10]</arglist>
+      <anchor>a1c268bb7b340c874935f186c0ba2a253</anchor>
+      <arglist>[BT_ISO_BROADCAST_CODE_SIZE]</arglist>
     </member>
     <member kind="variable">
       <type>uint8_t</type>
@@ -708991,8 +708991,8 @@
       <type>char</type>
       <name>fxsave</name>
       <anchorfile>structx86__ssf.html</anchorfile>
-      <anchor>a50e764f5066662238d2b3b117d199db2</anchor>
-      <arglist>[X86_FXSAVE_SIZE]</arglist>
+      <anchor>ac00879a99d2369b2832ab41febe08ced</anchor>
+      <arglist>[512]</arglist>
     </member>
     <member kind="variable">
       <type>unsigned long</type>
@@ -723849,8 +723849,8 @@
       <type>int</type>
       <name>bt_bap_broadcast_sink_sync</name>
       <anchorfile>group__bt__bap__broadcast__sink.html</anchorfile>
-      <anchor>gaaf18a6f7d2897f85b8012c1fa0513c09</anchor>
-      <arglist>(struct bt_bap_broadcast_sink *sink, uint32_t indexes_bitfield, struct bt_bap_stream *streams[], const uint8_t broadcast_code[0x10])</arglist>
+      <anchor>gacadebb5ce8aab5f5b8f1ff7e0fa57805</anchor>
+      <arglist>(struct bt_bap_broadcast_sink *sink, uint32_t indexes_bitfield, struct bt_bap_stream *streams[], const uint8_t broadcast_code[BT_ISO_BROADCAST_CODE_SIZE])</arglist>
     </member>
     <member kind="function">
       <type>int</type>
@@ -730378,8 +730378,8 @@
       <type>int</type>
       <name>bt_bap_broadcast_assistant_set_broadcast_code</name>
       <anchorfile>group__bt__bap.html</anchorfile>
-      <anchor>gabfbe52e8d1daa9411fb43781a199cac4</anchor>
-      <arglist>(struct bt_conn *conn, uint8_t src_id, const uint8_t broadcast_code[0x10])</arglist>
+      <anchor>gabcec07689c13a996bcb9d2d417347dbb</anchor>
+      <arglist>(struct bt_conn *conn, uint8_t src_id, const uint8_t broadcast_code[BT_ISO_BROADCAST_CODE_SIZE])</arglist>
     </member>
     <member kind="function">
       <type>int</type>

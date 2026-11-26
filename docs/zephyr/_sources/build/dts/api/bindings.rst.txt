@@ -625,8 +625,8 @@ Audio
 - :ref:`dtbinding_nxp_micfil`
 - :ref:`dtbinding_sifli_sf32lb_audcodec`
 - :ref:`dtbinding_st_mpxxdtyy_i2s`
-- :ref:`dtbinding_ti_pcm1681_i2c`
 - :ref:`dtbinding_ti_pcm1681_spi`
+- :ref:`dtbinding_ti_pcm1681_i2c`
 - :ref:`dtbinding_ti_tas6422dac`
 - :ref:`dtbinding_ti_tlv320aic3110`
 - :ref:`dtbinding_ti_tlv320dac`
@@ -1466,36 +1466,36 @@ Display
 - :ref:`dtbinding_sharp_ls0xx`
 - :ref:`dtbinding_sifli_sf32lb_lcdc`
 - :ref:`dtbinding_sil_sii9022a`
-- :ref:`dtbinding_sinowealth_sh1106_spi`
 - :ref:`dtbinding_sinowealth_sh1106_i2c`
-- :ref:`dtbinding_sinowealth_sh1122_mipi_dbi`
+- :ref:`dtbinding_sinowealth_sh1106_spi`
 - :ref:`dtbinding_sinowealth_sh1122_i2c`
+- :ref:`dtbinding_sinowealth_sh1122_mipi_dbi`
 - :ref:`dtbinding_sitronix_st7305`
 - :ref:`dtbinding_sitronix_st7306`
 - :ref:`dtbinding_sitronix_st75256`
-- :ref:`dtbinding_sitronix_st7567_i2c`
 - :ref:`dtbinding_sitronix_st7567_mipi_dbi`
+- :ref:`dtbinding_sitronix_st7567_i2c`
 - :ref:`dtbinding_sitronix_st7586s`
 - :ref:`dtbinding_sitronix_st7701`
 - :ref:`dtbinding_sitronix_st7735r`
 - :ref:`dtbinding_sitronix_st7789v`
 - :ref:`dtbinding_sitronix_st7796s`
-- :ref:`dtbinding_solomon_ssd1306_spi`
 - :ref:`dtbinding_solomon_ssd1306_i2c`
+- :ref:`dtbinding_solomon_ssd1306_spi`
 - :ref:`dtbinding_solomon_ssd1309_i2c`
 - :ref:`dtbinding_solomon_ssd1309_spi`
-- :ref:`dtbinding_solomon_ssd1320_i2c`
 - :ref:`dtbinding_solomon_ssd1320_mipi_dbi`
+- :ref:`dtbinding_solomon_ssd1320_i2c`
 - :ref:`dtbinding_solomon_ssd1322`
-- :ref:`dtbinding_solomon_ssd1325_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1325_i2c`
-- :ref:`dtbinding_solomon_ssd1327_mipi_dbi`
+- :ref:`dtbinding_solomon_ssd1325_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1327_i2c`
+- :ref:`dtbinding_solomon_ssd1327_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1331`
 - :ref:`dtbinding_solomon_ssd1351`
 - :ref:`dtbinding_solomon_ssd1357`
-- :ref:`dtbinding_solomon_ssd1363_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1363_i2c`
+- :ref:`dtbinding_solomon_ssd1363_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1608`
 - :ref:`dtbinding_solomon_ssd1673`
 - :ref:`dtbinding_solomon_ssd1675a`
@@ -2997,8 +2997,8 @@ Multi-Function Device
 
 .. rst-class:: rst-columns
 
-- :ref:`dtbinding_adi_ad559x_spi`
 - :ref:`dtbinding_adi_ad559x_i2c`
+- :ref:`dtbinding_adi_ad559x_spi`
 - :ref:`dtbinding_adi_adp5360`
 - :ref:`dtbinding_adi_adp5585`
 - :ref:`dtbinding_adi_max22017`
@@ -3667,9 +3667,8 @@ RISC-V architecture
 - :ref:`dtbinding_st_stm32_rng_noirq`
 - :ref:`dtbinding_telink_b91_trng`
 - :ref:`dtbinding_ti_cc13xx_cc26xx_trng`
-- :ref:`dtbinding_ti_cc23x0_rng`
-- :ref:`dtbinding_ti_cc27xx_rng`
 - :ref:`dtbinding_ti_cc35xx_hsm_trng`
+- :ref:`dtbinding_ti_lpf3_rng`
 - :ref:`dtbinding_ti_mspm0_trng`
 - :ref:`dtbinding_virtio_device4`
 - :ref:`dtbinding_wch_rng`
@@ -3785,8 +3784,8 @@ Sensors
 - :ref:`dtbinding_adi_adt7410`
 - :ref:`dtbinding_adi_adt7420`
 - :ref:`dtbinding_adi_adt7422`
-- :ref:`dtbinding_adi_adxl345_spi`
 - :ref:`dtbinding_adi_adxl345_i2c`
+- :ref:`dtbinding_adi_adxl345_spi`
 - :ref:`dtbinding_adi_adxl355_spi`
 - :ref:`dtbinding_adi_adxl355_i2c`
 - :ref:`dtbinding_adi_adxl362`
@@ -3794,8 +3793,8 @@ Sensors
 - :ref:`dtbinding_adi_adxl366_i2c`
 - :ref:`dtbinding_adi_adxl367_i2c`
 - :ref:`dtbinding_adi_adxl367_spi`
-- :ref:`dtbinding_adi_adxl372_i2c`
 - :ref:`dtbinding_adi_adxl372_spi`
+- :ref:`dtbinding_adi_adxl372_i2c`
 - :ref:`dtbinding_adi_max30210`
 - :ref:`dtbinding_allegro_als31300`
 - :ref:`dtbinding_amd_sb_tsi`
@@ -3830,8 +3829,8 @@ Sensors
 - :ref:`dtbinding_bosch_bmc150_magn`
 - :ref:`dtbinding_bosch_bme280_spi`
 - :ref:`dtbinding_bosch_bme280_i2c`
-- :ref:`dtbinding_bosch_bme680_spi`
 - :ref:`dtbinding_bosch_bme680_i2c`
+- :ref:`dtbinding_bosch_bme680_spi`
 - :ref:`dtbinding_bosch_bmg160`
 - :ref:`dtbinding_bosch_bmi08x_accel_i2c`
 - :ref:`dtbinding_bosch_bmi08x_accel_spi`
@@ -3839,8 +3838,8 @@ Sensors
 - :ref:`dtbinding_bosch_bmi08x_gyro_i2c`
 - :ref:`dtbinding_bosch_bmi160_spi`
 - :ref:`dtbinding_bosch_bmi160_i2c`
-- :ref:`dtbinding_bosch_bmi270_i2c`
 - :ref:`dtbinding_bosch_bmi270`
+- :ref:`dtbinding_bosch_bmi270_i2c`
 - :ref:`dtbinding_bosch_bmi270_spi`
 - :ref:`dtbinding_bosch_bmi323`
 - :ref:`dtbinding_bosch_bmm150_i2c`
@@ -3849,8 +3848,8 @@ Sensors
 - :ref:`dtbinding_bosch_bmp180`
 - :ref:`dtbinding_bosch_bmp388_i2c`
 - :ref:`dtbinding_bosch_bmp388_spi`
-- :ref:`dtbinding_bosch_bmp390_i2c`
 - :ref:`dtbinding_bosch_bmp390_spi`
+- :ref:`dtbinding_bosch_bmp390_i2c`
 - :ref:`dtbinding_bosch_bmp581`
 - :ref:`dtbinding_brcm_afbr_s50`
 - :ref:`dtbinding_dfrobot_a01nyub`
@@ -3874,11 +3873,11 @@ Sensors
 - :ref:`dtbinding_infineon_tle9104_diagnostics`
 - :ref:`dtbinding_infineon_xmc4xxx_temp`
 - :ref:`dtbinding_invensense_icm40627_i2c`
-- :ref:`dtbinding_invensense_icm42370p_spi`
 - :ref:`dtbinding_invensense_icm42370p_i2c`
+- :ref:`dtbinding_invensense_icm42370p_spi`
 - :ref:`dtbinding_invensense_icm42605`
-- :ref:`dtbinding_invensense_icm42670p_spi`
 - :ref:`dtbinding_invensense_icm42670p_i2c`
+- :ref:`dtbinding_invensense_icm42670p_spi`
 - :ref:`dtbinding_invensense_icm42670s_spi`
 - :ref:`dtbinding_invensense_icm42670s_i2c`
 - :ref:`dtbinding_invensense_icm42686`
@@ -3887,22 +3886,22 @@ Sensors
 - :ref:`dtbinding_invensense_icm45605_spi`
 - :ref:`dtbinding_invensense_icm45605_i3c`
 - :ref:`dtbinding_invensense_icm45605_i2c`
+- :ref:`dtbinding_invensense_icm45605s_i2c`
 - :ref:`dtbinding_invensense_icm45605s_i3c`
 - :ref:`dtbinding_invensense_icm45605s_spi`
-- :ref:`dtbinding_invensense_icm45605s_i2c`
-- :ref:`dtbinding_invensense_icm45686_spi`
 - :ref:`dtbinding_invensense_icm45686_i2c`
+- :ref:`dtbinding_invensense_icm45686_spi`
 - :ref:`dtbinding_invensense_icm45686_i3c`
-- :ref:`dtbinding_invensense_icm45686s_i2c`
-- :ref:`dtbinding_invensense_icm45686s_i3c`
 - :ref:`dtbinding_invensense_icm45686s_spi`
-- :ref:`dtbinding_invensense_icm45688p_i2c`
+- :ref:`dtbinding_invensense_icm45686s_i3c`
+- :ref:`dtbinding_invensense_icm45686s_i2c`
 - :ref:`dtbinding_invensense_icm45688p_spi`
+- :ref:`dtbinding_invensense_icm45688p_i2c`
 - :ref:`dtbinding_invensense_icm45688p_i3c`
 - :ref:`dtbinding_invensense_icp101xx`
+- :ref:`dtbinding_invensense_icp201xx`
 - :ref:`dtbinding_invensense_icp201xx_i2c`
 - :ref:`dtbinding_invensense_icp201xx_spi`
-- :ref:`dtbinding_invensense_icp201xx`
 - :ref:`dtbinding_invensense_mpu6050`
 - :ref:`dtbinding_invensense_mpu9250`
 - :ref:`dtbinding_isentek_ist8310`
@@ -3958,8 +3957,8 @@ Sensors
 - :ref:`dtbinding_nuvoton_npcx_adc_v2t`
 - :ref:`dtbinding_nxp_fxas21002_spi`
 - :ref:`dtbinding_nxp_fxas21002_i2c`
-- :ref:`dtbinding_nxp_fxls8974_i2c`
 - :ref:`dtbinding_nxp_fxls8974_spi`
+- :ref:`dtbinding_nxp_fxls8974_i2c`
 - :ref:`dtbinding_nxp_fxos8700_spi`
 - :ref:`dtbinding_nxp_fxos8700_i2c`
 - :ref:`dtbinding_nxp_kinetis_temperature`
@@ -3985,8 +3984,8 @@ Sensors
 - :ref:`dtbinding_pixart_paj7620`
 - :ref:`dtbinding_pixart_pat9136`
 - :ref:`dtbinding_plantower_pms7003`
-- :ref:`dtbinding_pni_rm3100_spi`
 - :ref:`dtbinding_pni_rm3100_i2c`
+- :ref:`dtbinding_pni_rm3100_spi`
 - :ref:`dtbinding_qst_qmi8658a`
 - :ref:`dtbinding_raspberrypi_pico_temp`
 - :ref:`dtbinding_renesas_hs300x`
@@ -3996,8 +3995,8 @@ Sensors
 - :ref:`dtbinding_rohm_bh1750`
 - :ref:`dtbinding_rohm_bh1790`
 - :ref:`dtbinding_sbs_sbs_gauge`
-- :ref:`dtbinding_sciosense_ens160_i2c`
 - :ref:`dtbinding_sciosense_ens160_spi`
+- :ref:`dtbinding_sciosense_ens160_i2c`
 - :ref:`dtbinding_seeed_grove_light`
 - :ref:`dtbinding_seeed_grove_temperature`
 - :ref:`dtbinding_seeed_hm330x`
@@ -4021,50 +4020,50 @@ Sensors
 - :ref:`dtbinding_st_i3g4250d`
 - :ref:`dtbinding_st_iis2dh_i2c`
 - :ref:`dtbinding_st_iis2dh_spi`
-- :ref:`dtbinding_st_iis2dlpc_spi`
 - :ref:`dtbinding_st_iis2dlpc_i2c`
-- :ref:`dtbinding_st_iis2iclx_spi`
+- :ref:`dtbinding_st_iis2dlpc_spi`
 - :ref:`dtbinding_st_iis2iclx_i2c`
+- :ref:`dtbinding_st_iis2iclx_spi`
 - :ref:`dtbinding_st_iis2mdc_spi`
 - :ref:`dtbinding_st_iis2mdc_i2c`
-- :ref:`dtbinding_st_iis328dq_i2c`
 - :ref:`dtbinding_st_iis328dq_spi`
+- :ref:`dtbinding_st_iis328dq_i2c`
 - :ref:`dtbinding_st_iis3dhhc_spi`
 - :ref:`dtbinding_st_iis3dwb`
 - :ref:`dtbinding_st_ilps22qs_spi`
 - :ref:`dtbinding_st_ilps22qs_i2c`
 - :ref:`dtbinding_st_ilps22qs_i3c`
-- :ref:`dtbinding_st_ism330dhcx_spi`
 - :ref:`dtbinding_st_ism330dhcx_i2c`
-- :ref:`dtbinding_st_ism6hg256x_spi`
+- :ref:`dtbinding_st_ism330dhcx_spi`
 - :ref:`dtbinding_st_ism6hg256x_i3c`
+- :ref:`dtbinding_st_ism6hg256x_spi`
 - :ref:`dtbinding_st_ism6hg256x_i2c`
-- :ref:`dtbinding_st_lis2de12_spi`
 - :ref:`dtbinding_st_lis2de12_i2c`
-- :ref:`dtbinding_st_lis2dh_i2c`
+- :ref:`dtbinding_st_lis2de12_spi`
 - :ref:`dtbinding_st_lis2dh_spi`
+- :ref:`dtbinding_st_lis2dh_i2c`
 - :ref:`dtbinding_st_lis2dh12_i2c`
-- :ref:`dtbinding_st_lis2ds12_spi`
 - :ref:`dtbinding_st_lis2ds12_i2c`
+- :ref:`dtbinding_st_lis2ds12_spi`
 - :ref:`dtbinding_st_lis2du12_i2c`
 - :ref:`dtbinding_st_lis2du12_spi`
-- :ref:`dtbinding_st_lis2dux12_spi`
 - :ref:`dtbinding_st_lis2dux12_i2c`
+- :ref:`dtbinding_st_lis2dux12_spi`
 - :ref:`dtbinding_st_lis2duxs12_spi`
 - :ref:`dtbinding_st_lis2duxs12_i2c`
 - :ref:`dtbinding_st_lis2dw12_i2c`
 - :ref:`dtbinding_st_lis2dw12_spi`
-- :ref:`dtbinding_st_lis2mdl_spi`
 - :ref:`dtbinding_st_lis2mdl_i2c`
+- :ref:`dtbinding_st_lis2mdl_spi`
 - :ref:`dtbinding_st_lis3dh_i2c`
 - :ref:`dtbinding_st_lis3mdl_magn`
-- :ref:`dtbinding_st_lps22df_i2c`
 - :ref:`dtbinding_st_lps22df_i3c`
+- :ref:`dtbinding_st_lps22df_i2c`
 - :ref:`dtbinding_st_lps22df_spi`
 - :ref:`dtbinding_st_lps22hb_press`
 - :ref:`dtbinding_st_lps22hh_spi`
-- :ref:`dtbinding_st_lps22hh_i3c`
 - :ref:`dtbinding_st_lps22hh_i2c`
+- :ref:`dtbinding_st_lps22hh_i3c`
 - :ref:`dtbinding_st_lps25hb_press`
 - :ref:`dtbinding_st_lps28dfw_i2c`
 - :ref:`dtbinding_st_lps28dfw_i3c`
@@ -4075,20 +4074,20 @@ Sensors
 - :ref:`dtbinding_st_lsm6ds0`
 - :ref:`dtbinding_st_lsm6dsl_i2c`
 - :ref:`dtbinding_st_lsm6dsl_spi`
-- :ref:`dtbinding_st_lsm6dso_spi`
 - :ref:`dtbinding_st_lsm6dso_i2c`
+- :ref:`dtbinding_st_lsm6dso_spi`
 - :ref:`dtbinding_st_lsm6dso16is_spi`
 - :ref:`dtbinding_st_lsm6dso16is_i2c`
 - :ref:`dtbinding_st_lsm6dso32_spi`
 - :ref:`dtbinding_st_lsm6dso32_i2c`
-- :ref:`dtbinding_st_lsm6dsv16x_i3c`
 - :ref:`dtbinding_st_lsm6dsv16x_i2c`
 - :ref:`dtbinding_st_lsm6dsv16x_spi`
+- :ref:`dtbinding_st_lsm6dsv16x_i3c`
 - :ref:`dtbinding_st_lsm6dsv320x_i3c`
-- :ref:`dtbinding_st_lsm6dsv320x_i2c`
 - :ref:`dtbinding_st_lsm6dsv320x_spi`
-- :ref:`dtbinding_st_lsm6dsv32x_i2c`
+- :ref:`dtbinding_st_lsm6dsv320x_i2c`
 - :ref:`dtbinding_st_lsm6dsv32x_i3c`
+- :ref:`dtbinding_st_lsm6dsv32x_i2c`
 - :ref:`dtbinding_st_lsm6dsv32x_spi`
 - :ref:`dtbinding_st_lsm6dsv80x_spi`
 - :ref:`dtbinding_st_lsm6dsv80x_i2c`
@@ -4145,14 +4144,14 @@ Sensors
 - :ref:`dtbinding_vishay_veml6046`
 - :ref:`dtbinding_vishay_veml7700`
 - :ref:`dtbinding_we_wsen_hids_2525020210002`
-- :ref:`dtbinding_we_wsen_isds_2536030320001_spi`
 - :ref:`dtbinding_we_wsen_isds_2536030320001_i2c`
-- :ref:`dtbinding_we_wsen_itds_2533020201601_spi`
+- :ref:`dtbinding_we_wsen_isds_2536030320001_spi`
 - :ref:`dtbinding_we_wsen_itds_2533020201601_i2c`
-- :ref:`dtbinding_we_wsen_pads_2511020213301_spi`
+- :ref:`dtbinding_we_wsen_itds_2533020201601_spi`
 - :ref:`dtbinding_we_wsen_pads_2511020213301_i2c`
-- :ref:`dtbinding_we_wsen_pdms_25131308XXX05_i2c`
+- :ref:`dtbinding_we_wsen_pads_2511020213301_spi`
 - :ref:`dtbinding_we_wsen_pdms_25131308XXX05_spi`
+- :ref:`dtbinding_we_wsen_pdms_25131308XXX05_i2c`
 - :ref:`dtbinding_we_wsen_pdus_25131308XXXXX`
 - :ref:`dtbinding_we_wsen_tids_2521020222501`
 - :ref:`dtbinding_winsen_mhz19b`
@@ -4820,8 +4819,8 @@ Wi-Fi
 - :ref:`dtbinding_espressif_esp_at`
 - :ref:`dtbinding_espressif_esp_hosted`
 - :ref:`dtbinding_espressif_esp32_wifi`
-- :ref:`dtbinding_infineon_airoc_wifi_spi`
 - :ref:`dtbinding_infineon_airoc_wifi`
+- :ref:`dtbinding_infineon_airoc_wifi_spi`
 - :ref:`dtbinding_inventek_eswifi`
 - :ref:`dtbinding_inventek_eswifi_uart`
 - :ref:`dtbinding_nordic_nrf7000_coex`
@@ -5119,8 +5118,8 @@ Analog Devices, Inc. (adi)
 - :ref:`dtbinding_adi_ad4170_adc`
 - :ref:`dtbinding_adi_ad4190_adc`
 - :ref:`dtbinding_adi_ad4195_adc`
-- :ref:`dtbinding_adi_ad559x_spi`
 - :ref:`dtbinding_adi_ad559x_i2c`
+- :ref:`dtbinding_adi_ad559x_spi`
 - :ref:`dtbinding_adi_ad559x_adc`
 - :ref:`dtbinding_adi_ad559x_dac`
 - :ref:`dtbinding_adi_ad559x_gpio`
@@ -5157,8 +5156,8 @@ Analog Devices, Inc. (adi)
 - :ref:`dtbinding_adi_adt7410`
 - :ref:`dtbinding_adi_adt7420`
 - :ref:`dtbinding_adi_adt7422`
-- :ref:`dtbinding_adi_adxl345_spi`
 - :ref:`dtbinding_adi_adxl345_i2c`
+- :ref:`dtbinding_adi_adxl345_spi`
 - :ref:`dtbinding_adi_adxl355_spi`
 - :ref:`dtbinding_adi_adxl355_i2c`
 - :ref:`dtbinding_adi_adxl362`
@@ -5166,8 +5165,8 @@ Analog Devices, Inc. (adi)
 - :ref:`dtbinding_adi_adxl366_i2c`
 - :ref:`dtbinding_adi_adxl367_i2c`
 - :ref:`dtbinding_adi_adxl367_spi`
-- :ref:`dtbinding_adi_adxl372_i2c`
 - :ref:`dtbinding_adi_adxl372_spi`
+- :ref:`dtbinding_adi_adxl372_i2c`
 - :ref:`dtbinding_adi_ltc2959`
 - :ref:`dtbinding_adi_max14906_gpio`
 - :ref:`dtbinding_adi_max14915_gpio`
@@ -5551,8 +5550,8 @@ Bosch Sensortec GmbH (bosch)
 - :ref:`dtbinding_bosch_bmc150_magn`
 - :ref:`dtbinding_bosch_bme280_spi`
 - :ref:`dtbinding_bosch_bme280_i2c`
-- :ref:`dtbinding_bosch_bme680_spi`
 - :ref:`dtbinding_bosch_bme680_i2c`
+- :ref:`dtbinding_bosch_bme680_spi`
 - :ref:`dtbinding_bosch_bmg160`
 - :ref:`dtbinding_bosch_bmi08x_accel_i2c`
 - :ref:`dtbinding_bosch_bmi08x_accel_spi`
@@ -5560,8 +5559,8 @@ Bosch Sensortec GmbH (bosch)
 - :ref:`dtbinding_bosch_bmi08x_gyro_i2c`
 - :ref:`dtbinding_bosch_bmi160_spi`
 - :ref:`dtbinding_bosch_bmi160_i2c`
-- :ref:`dtbinding_bosch_bmi270_i2c`
 - :ref:`dtbinding_bosch_bmi270`
+- :ref:`dtbinding_bosch_bmi270_i2c`
 - :ref:`dtbinding_bosch_bmi270_spi`
 - :ref:`dtbinding_bosch_bmi323`
 - :ref:`dtbinding_bosch_bmm150_i2c`
@@ -5570,8 +5569,8 @@ Bosch Sensortec GmbH (bosch)
 - :ref:`dtbinding_bosch_bmp180`
 - :ref:`dtbinding_bosch_bmp388_i2c`
 - :ref:`dtbinding_bosch_bmp388_spi`
-- :ref:`dtbinding_bosch_bmp390_i2c`
 - :ref:`dtbinding_bosch_bmp390_spi`
+- :ref:`dtbinding_bosch_bmp390_i2c`
 - :ref:`dtbinding_bosch_bmp581`
 
 .. _dt_vendor_bflb:
@@ -6260,8 +6259,8 @@ Infineon Technologies (infineon)
 .. rst-class:: rst-columns
 
 - :ref:`dtbinding_infineon_adc`
-- :ref:`dtbinding_infineon_airoc_wifi_spi`
 - :ref:`dtbinding_infineon_airoc_wifi`
+- :ref:`dtbinding_infineon_airoc_wifi_spi`
 - :ref:`dtbinding_infineon_autanalog_sar_adc`
 - :ref:`dtbinding_infineon_bless_hci`
 - :ref:`dtbinding_infineon_bt_hci_uart`
@@ -6456,11 +6455,11 @@ InvenSense Inc. (invensense)
 .. rst-class:: rst-columns
 
 - :ref:`dtbinding_invensense_icm40627_i2c`
-- :ref:`dtbinding_invensense_icm42370p_spi`
 - :ref:`dtbinding_invensense_icm42370p_i2c`
+- :ref:`dtbinding_invensense_icm42370p_spi`
 - :ref:`dtbinding_invensense_icm42605`
-- :ref:`dtbinding_invensense_icm42670p_spi`
 - :ref:`dtbinding_invensense_icm42670p_i2c`
+- :ref:`dtbinding_invensense_icm42670p_spi`
 - :ref:`dtbinding_invensense_icm42670s_spi`
 - :ref:`dtbinding_invensense_icm42670s_i2c`
 - :ref:`dtbinding_invensense_icm42686`
@@ -6469,22 +6468,22 @@ InvenSense Inc. (invensense)
 - :ref:`dtbinding_invensense_icm45605_spi`
 - :ref:`dtbinding_invensense_icm45605_i3c`
 - :ref:`dtbinding_invensense_icm45605_i2c`
+- :ref:`dtbinding_invensense_icm45605s_i2c`
 - :ref:`dtbinding_invensense_icm45605s_i3c`
 - :ref:`dtbinding_invensense_icm45605s_spi`
-- :ref:`dtbinding_invensense_icm45605s_i2c`
-- :ref:`dtbinding_invensense_icm45686_spi`
 - :ref:`dtbinding_invensense_icm45686_i2c`
+- :ref:`dtbinding_invensense_icm45686_spi`
 - :ref:`dtbinding_invensense_icm45686_i3c`
-- :ref:`dtbinding_invensense_icm45686s_i2c`
-- :ref:`dtbinding_invensense_icm45686s_i3c`
 - :ref:`dtbinding_invensense_icm45686s_spi`
-- :ref:`dtbinding_invensense_icm45688p_i2c`
+- :ref:`dtbinding_invensense_icm45686s_i3c`
+- :ref:`dtbinding_invensense_icm45686s_i2c`
 - :ref:`dtbinding_invensense_icm45688p_spi`
+- :ref:`dtbinding_invensense_icm45688p_i2c`
 - :ref:`dtbinding_invensense_icm45688p_i3c`
 - :ref:`dtbinding_invensense_icp101xx`
+- :ref:`dtbinding_invensense_icp201xx`
 - :ref:`dtbinding_invensense_icp201xx_i2c`
 - :ref:`dtbinding_invensense_icp201xx_spi`
-- :ref:`dtbinding_invensense_icp201xx`
 - :ref:`dtbinding_invensense_mpu6050`
 - :ref:`dtbinding_invensense_mpu9250`
 
@@ -7466,8 +7465,8 @@ NXP Semiconductors (nxp)
 - :ref:`dtbinding_nxp_ftm_pwm`
 - :ref:`dtbinding_nxp_fxas21002_spi`
 - :ref:`dtbinding_nxp_fxas21002_i2c`
-- :ref:`dtbinding_nxp_fxls8974_i2c`
 - :ref:`dtbinding_nxp_fxls8974_spi`
+- :ref:`dtbinding_nxp_fxls8974_i2c`
 - :ref:`dtbinding_nxp_fxos8700_spi`
 - :ref:`dtbinding_nxp_fxos8700_i2c`
 - :ref:`dtbinding_nxp_fxosc`
@@ -7947,8 +7946,8 @@ PNI Sensor Corporation (pni)
 
 .. rst-class:: rst-columns
 
-- :ref:`dtbinding_pni_rm3100_spi`
 - :ref:`dtbinding_pni_rm3100_i2c`
+- :ref:`dtbinding_pni_rm3100_spi`
 
 .. _dt_vendor_ptc:
 
@@ -8432,8 +8431,8 @@ Sciosense B.V. (sciosense)
 
 .. rst-class:: rst-columns
 
-- :ref:`dtbinding_sciosense_ens160_i2c`
 - :ref:`dtbinding_sciosense_ens160_spi`
+- :ref:`dtbinding_sciosense_ens160_i2c`
 
 .. _dt_vendor_seeed:
 
@@ -8814,10 +8813,10 @@ Sino Wealth Electronic Ltd (sinowealth)
 
 .. rst-class:: rst-columns
 
-- :ref:`dtbinding_sinowealth_sh1106_spi`
 - :ref:`dtbinding_sinowealth_sh1106_i2c`
-- :ref:`dtbinding_sinowealth_sh1122_mipi_dbi`
+- :ref:`dtbinding_sinowealth_sh1106_spi`
 - :ref:`dtbinding_sinowealth_sh1122_i2c`
+- :ref:`dtbinding_sinowealth_sh1122_mipi_dbi`
 
 .. _dt_vendor_sitronix:
 
@@ -8830,8 +8829,8 @@ Sitronix Technology Corporation (sitronix)
 - :ref:`dtbinding_sitronix_st7305`
 - :ref:`dtbinding_sitronix_st7306`
 - :ref:`dtbinding_sitronix_st75256`
-- :ref:`dtbinding_sitronix_st7567_i2c`
 - :ref:`dtbinding_sitronix_st7567_mipi_dbi`
+- :ref:`dtbinding_sitronix_st7567_i2c`
 - :ref:`dtbinding_sitronix_st7586s`
 - :ref:`dtbinding_sitronix_st7701`
 - :ref:`dtbinding_sitronix_st7735r`
@@ -8877,22 +8876,22 @@ Solomon Systech Limited (solomon)
 
 .. rst-class:: rst-columns
 
-- :ref:`dtbinding_solomon_ssd1306_spi`
 - :ref:`dtbinding_solomon_ssd1306_i2c`
+- :ref:`dtbinding_solomon_ssd1306_spi`
 - :ref:`dtbinding_solomon_ssd1309_i2c`
 - :ref:`dtbinding_solomon_ssd1309_spi`
-- :ref:`dtbinding_solomon_ssd1320_i2c`
 - :ref:`dtbinding_solomon_ssd1320_mipi_dbi`
+- :ref:`dtbinding_solomon_ssd1320_i2c`
 - :ref:`dtbinding_solomon_ssd1322`
-- :ref:`dtbinding_solomon_ssd1325_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1325_i2c`
-- :ref:`dtbinding_solomon_ssd1327_mipi_dbi`
+- :ref:`dtbinding_solomon_ssd1325_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1327_i2c`
+- :ref:`dtbinding_solomon_ssd1327_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1331`
 - :ref:`dtbinding_solomon_ssd1351`
 - :ref:`dtbinding_solomon_ssd1357`
-- :ref:`dtbinding_solomon_ssd1363_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1363_i2c`
+- :ref:`dtbinding_solomon_ssd1363_mipi_dbi`
 - :ref:`dtbinding_solomon_ssd1608`
 - :ref:`dtbinding_solomon_ssd1673`
 - :ref:`dtbinding_solomon_ssd1675a`
@@ -8967,50 +8966,50 @@ STMicroelectronics (st)
 - :ref:`dtbinding_st_i3g4250d`
 - :ref:`dtbinding_st_iis2dh_i2c`
 - :ref:`dtbinding_st_iis2dh_spi`
-- :ref:`dtbinding_st_iis2dlpc_spi`
 - :ref:`dtbinding_st_iis2dlpc_i2c`
-- :ref:`dtbinding_st_iis2iclx_spi`
+- :ref:`dtbinding_st_iis2dlpc_spi`
 - :ref:`dtbinding_st_iis2iclx_i2c`
+- :ref:`dtbinding_st_iis2iclx_spi`
 - :ref:`dtbinding_st_iis2mdc_spi`
 - :ref:`dtbinding_st_iis2mdc_i2c`
-- :ref:`dtbinding_st_iis328dq_i2c`
 - :ref:`dtbinding_st_iis328dq_spi`
+- :ref:`dtbinding_st_iis328dq_i2c`
 - :ref:`dtbinding_st_iis3dhhc_spi`
 - :ref:`dtbinding_st_iis3dwb`
 - :ref:`dtbinding_st_ilps22qs_spi`
 - :ref:`dtbinding_st_ilps22qs_i2c`
 - :ref:`dtbinding_st_ilps22qs_i3c`
-- :ref:`dtbinding_st_ism330dhcx_spi`
 - :ref:`dtbinding_st_ism330dhcx_i2c`
-- :ref:`dtbinding_st_ism6hg256x_spi`
+- :ref:`dtbinding_st_ism330dhcx_spi`
 - :ref:`dtbinding_st_ism6hg256x_i3c`
+- :ref:`dtbinding_st_ism6hg256x_spi`
 - :ref:`dtbinding_st_ism6hg256x_i2c`
-- :ref:`dtbinding_st_lis2de12_spi`
 - :ref:`dtbinding_st_lis2de12_i2c`
-- :ref:`dtbinding_st_lis2dh_i2c`
+- :ref:`dtbinding_st_lis2de12_spi`
 - :ref:`dtbinding_st_lis2dh_spi`
+- :ref:`dtbinding_st_lis2dh_i2c`
 - :ref:`dtbinding_st_lis2dh12_i2c`
-- :ref:`dtbinding_st_lis2ds12_spi`
 - :ref:`dtbinding_st_lis2ds12_i2c`
+- :ref:`dtbinding_st_lis2ds12_spi`
 - :ref:`dtbinding_st_lis2du12_i2c`
 - :ref:`dtbinding_st_lis2du12_spi`
-- :ref:`dtbinding_st_lis2dux12_spi`
 - :ref:`dtbinding_st_lis2dux12_i2c`
+- :ref:`dtbinding_st_lis2dux12_spi`
 - :ref:`dtbinding_st_lis2duxs12_spi`
 - :ref:`dtbinding_st_lis2duxs12_i2c`
 - :ref:`dtbinding_st_lis2dw12_i2c`
 - :ref:`dtbinding_st_lis2dw12_spi`
-- :ref:`dtbinding_st_lis2mdl_spi`
 - :ref:`dtbinding_st_lis2mdl_i2c`
+- :ref:`dtbinding_st_lis2mdl_spi`
 - :ref:`dtbinding_st_lis3dh_i2c`
 - :ref:`dtbinding_st_lis3mdl_magn`
-- :ref:`dtbinding_st_lps22df_i2c`
 - :ref:`dtbinding_st_lps22df_i3c`
+- :ref:`dtbinding_st_lps22df_i2c`
 - :ref:`dtbinding_st_lps22df_spi`
 - :ref:`dtbinding_st_lps22hb_press`
 - :ref:`dtbinding_st_lps22hh_spi`
-- :ref:`dtbinding_st_lps22hh_i3c`
 - :ref:`dtbinding_st_lps22hh_i2c`
+- :ref:`dtbinding_st_lps22hh_i3c`
 - :ref:`dtbinding_st_lps25hb_press`
 - :ref:`dtbinding_st_lps28dfw_i2c`
 - :ref:`dtbinding_st_lps28dfw_i3c`
@@ -9021,20 +9020,20 @@ STMicroelectronics (st)
 - :ref:`dtbinding_st_lsm6ds0`
 - :ref:`dtbinding_st_lsm6dsl_i2c`
 - :ref:`dtbinding_st_lsm6dsl_spi`
-- :ref:`dtbinding_st_lsm6dso_spi`
 - :ref:`dtbinding_st_lsm6dso_i2c`
+- :ref:`dtbinding_st_lsm6dso_spi`
 - :ref:`dtbinding_st_lsm6dso16is_spi`
 - :ref:`dtbinding_st_lsm6dso16is_i2c`
 - :ref:`dtbinding_st_lsm6dso32_spi`
 - :ref:`dtbinding_st_lsm6dso32_i2c`
-- :ref:`dtbinding_st_lsm6dsv16x_i3c`
 - :ref:`dtbinding_st_lsm6dsv16x_i2c`
 - :ref:`dtbinding_st_lsm6dsv16x_spi`
+- :ref:`dtbinding_st_lsm6dsv16x_i3c`
 - :ref:`dtbinding_st_lsm6dsv320x_i3c`
-- :ref:`dtbinding_st_lsm6dsv320x_i2c`
 - :ref:`dtbinding_st_lsm6dsv320x_spi`
-- :ref:`dtbinding_st_lsm6dsv32x_i2c`
+- :ref:`dtbinding_st_lsm6dsv320x_i2c`
 - :ref:`dtbinding_st_lsm6dsv32x_i3c`
+- :ref:`dtbinding_st_lsm6dsv32x_i2c`
 - :ref:`dtbinding_st_lsm6dsv32x_spi`
 - :ref:`dtbinding_st_lsm6dsv80x_spi`
 - :ref:`dtbinding_st_lsm6dsv80x_i2c`
@@ -9443,7 +9442,6 @@ Texas Instruments (ti)
 - :ref:`dtbinding_ti_cc23x0_lgpt`
 - :ref:`dtbinding_ti_cc23x0_lgpt_pwm`
 - :ref:`dtbinding_ti_cc23x0_pinctrl`
-- :ref:`dtbinding_ti_cc23x0_rng`
 - :ref:`dtbinding_ti_cc23x0_rtc`
 - :ref:`dtbinding_ti_cc23x0_systim_timer`
 - :ref:`dtbinding_ti_cc23x0_wdt`
@@ -9457,7 +9455,6 @@ Texas Instruments (ti)
 - :ref:`dtbinding_ti_cc27xx_lgpt`
 - :ref:`dtbinding_ti_cc27xx_lgpt_pwm`
 - :ref:`dtbinding_ti_cc27xx_pinctrl`
-- :ref:`dtbinding_ti_cc27xx_rng`
 - :ref:`dtbinding_ti_cc32xx_adc`
 - :ref:`dtbinding_ti_cc32xx_gpio`
 - :ref:`dtbinding_ti_cc32xx_i2c`
@@ -9551,6 +9548,7 @@ Texas Instruments (ti)
 - :ref:`dtbinding_ti_lpf3_dma`
 - :ref:`dtbinding_ti_lpf3_lgpt`
 - :ref:`dtbinding_ti_lpf3_lpcmp`
+- :ref:`dtbinding_ti_lpf3_rng`
 - :ref:`dtbinding_ti_lpf3_rtc_timer`
 - :ref:`dtbinding_ti_lpf3_uart`
 - :ref:`dtbinding_ti_lpf3_wdt`
@@ -9589,8 +9587,8 @@ Texas Instruments (ti)
 - :ref:`dtbinding_ti_omap_mcspi`
 - :ref:`dtbinding_ti_opt3001`
 - :ref:`dtbinding_ti_opt3004`
-- :ref:`dtbinding_ti_pcm1681_i2c`
 - :ref:`dtbinding_ti_pcm1681_spi`
+- :ref:`dtbinding_ti_pcm1681_i2c`
 - :ref:`dtbinding_ti_rcl_coex_one_wire_grant`
 - :ref:`dtbinding_ti_rcl_coex_one_wire_request`
 - :ref:`dtbinding_ti_rcl_coex_three_wire`
@@ -9785,14 +9783,14 @@ Würth Elektronik GmbH. (we)
 .. rst-class:: rst-columns
 
 - :ref:`dtbinding_we_wsen_hids_2525020210002`
-- :ref:`dtbinding_we_wsen_isds_2536030320001_spi`
 - :ref:`dtbinding_we_wsen_isds_2536030320001_i2c`
-- :ref:`dtbinding_we_wsen_itds_2533020201601_spi`
+- :ref:`dtbinding_we_wsen_isds_2536030320001_spi`
 - :ref:`dtbinding_we_wsen_itds_2533020201601_i2c`
-- :ref:`dtbinding_we_wsen_pads_2511020213301_spi`
+- :ref:`dtbinding_we_wsen_itds_2533020201601_spi`
 - :ref:`dtbinding_we_wsen_pads_2511020213301_i2c`
-- :ref:`dtbinding_we_wsen_pdms_25131308XXX05_i2c`
+- :ref:`dtbinding_we_wsen_pads_2511020213301_spi`
 - :ref:`dtbinding_we_wsen_pdms_25131308XXX05_spi`
+- :ref:`dtbinding_we_wsen_pdms_25131308XXX05_i2c`
 - :ref:`dtbinding_we_wsen_pdus_25131308XXXXX`
 - :ref:`dtbinding_we_wsen_tids_2521020222501`
 

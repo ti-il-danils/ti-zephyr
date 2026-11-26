@@ -41812,7 +41812,7 @@
       <Scope>bt_bap_scan_delegator_recv_state</Scope>
     </TokenIdentifier>
     <Path>structbt__bap__scan__delegator__recv__state.html</Path>
-    <Anchor>acc044fafc882b449ee6fcd0c6c995b36</Anchor>
+    <Anchor>a1c268bb7b340c874935f186c0ba2a253</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45452,7 +45452,7 @@
       <Scope>bt_bap_scan_delegator_cb</Scope>
     </TokenIdentifier>
     <Path>structbt__bap__scan__delegator__cb.html</Path>
-    <Anchor>a92da6e5c59d7944cc6e910425337de80</Anchor>
+    <Anchor>a78d011c817e60725a0ef14c68bd655cd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -45462,7 +45462,7 @@
       <Scope>bt_bap_broadcast_source_param</Scope>
     </TokenIdentifier>
     <Path>structbt__bap__broadcast__source__param.html</Path>
-    <Anchor>a4fa06bcfe0f01d093dc855ede503e6c7</Anchor>
+    <Anchor>a6a05b6448f55cf5f52f90e44d83146dc</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -75203,7 +75203,7 @@
       <Scope>arch_esf</Scope>
     </TokenIdentifier>
     <Path>structarch__esf.html</Path>
-    <Anchor>af27c45a02ae939f203f260e21c5efdb5</Anchor>
+    <Anchor>ad8800ab57271ecbd74b382b47400fe4a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -75213,7 +75213,7 @@
       <Scope>x86_ssf</Scope>
     </TokenIdentifier>
     <Path>structx86__ssf.html</Path>
-    <Anchor>a50e764f5066662238d2b3b117d199db2</Anchor>
+    <Anchor>ac00879a99d2369b2832ab41febe08ced</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -224044,7 +224044,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>group__bt__bap.html</Path>
-    <Anchor>gabfbe52e8d1daa9411fb43781a199cac4</Anchor>
+    <Anchor>gabcec07689c13a996bcb9d2d417347dbb</Anchor>
     <DeclaredIn>bap.h</DeclaredIn>
   </Token>
   <Token>
@@ -224114,7 +224114,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>group__bt__bap__broadcast__sink.html</Path>
-    <Anchor>gaaf18a6f7d2897f85b8012c1fa0513c09</Anchor>
+    <Anchor>gacadebb5ce8aab5f5b8f1ff7e0fa57805</Anchor>
     <DeclaredIn>bap.h</DeclaredIn>
   </Token>
   <Token>
